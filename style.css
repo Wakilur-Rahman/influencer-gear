@@ -162,9 +162,72 @@ padding-left: 1em;
     background-color: rgb(2, 2, 37);
     color: white;
 }
+/*------------------
+-------media
+------------------*/ 
+
+/*------------------
+-------mobile
+------------------*/ 
+@media only screen and ( max-width: 688px) {
+    .nav-bar{display: none;
+}
+.sec01{
+    display: grid;
+    grid-gap: 2em;
+    width: 100%;
+}
+.logos{
+    display: none;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+}
+.see{
+    text-align: center;
+}
+.future-marketing{
+    display: grid;
+    grid-gap: 2em;
+    width: 100%;
+}
+}
+
+/*------------------
+-------tablet
+------------------*/
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+    .nav-bar{display: none;
+    }
+    .sec01{
+        display: grid;
+        grid-gap: 2em;
+        width: 100%;
+    }
+    .logos{
+        display: none;
+    }
+    .items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .see{
+        text-align: center;
+    }
+    .future-marketing{
+        display: grid;
+        grid-gap: 2em;
+        width: 100%;
+    }
+    
+}
+
 
 
 
 /*------------------
 -------END
-------------------*/
+------------------*/ 
