@@ -102,7 +102,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
-    margin-left: 10em;
+    margin-left: 6em;
     
 }
 .item{
